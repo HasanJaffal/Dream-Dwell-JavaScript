@@ -1,0 +1,42 @@
+    /* MyTable.css */
+
+    .custom-table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: auto;
+}
+
+    .custom-table th {
+        background-color: dodgerblue;
+    }
+    
+    .custom-table th,
+    .custom-table td {
+        border: 1px solid dodgerblue;
+        padding: 8px;
+        text-align: center;
+    }
+    
+    .even-row {
+        background-color: whitesmoke;
+    }
+    
+    .odd-row {
+        background-color: white;
+    }
+    .editable {
+        border: 1px solid dodgerblue !important;
+    }
+
+
+    .dlt button {
+        background-color: red;
+        color: white;
+        padding: 8%;
+        cursor: pointer;
+        border-radius: 48px;
+        -webkit-border-radius: 48px;
+        -moz-border-radius: 48px;
+        -ms-border-radius: 48px;
+        -o-border-radius: 48px;
+}

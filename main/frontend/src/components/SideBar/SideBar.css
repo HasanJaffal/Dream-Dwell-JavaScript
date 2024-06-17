@@ -1,0 +1,33 @@
+.sb-container {
+    font-size: larger;
+    width: 8rem;
+    height: 34rem;
+    margin-bottom: 5.5rem;
+
+}
+
+.button-group2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Style for Buttons */
+.button-group2 button {
+    background-color: whitesmoke;
+    border: 1px solid dodgerblue;
+    border-bottom: none;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 16px bold;
+    align-items: center;
+    height: 3.75rem;
+    width: 8rem;
+    min-height: fit-content;
+}
+
+.button-group2 button:hover {
+    background-color: dodgerblue;
+    color: black;
+}

@@ -1,0 +1,14 @@
+.info, .logged-out {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.un {
+    color: limegreen;
+}
+
+.link {
+    text-decoration: underline;
+    color: limegreen;
+}

@@ -1,0 +1,55 @@
+    /* LoginForm.css */
+    .login-form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        max-width: 300px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    label {
+        margin-bottom: 8px;
+    }
+    
+    input {
+        padding: 8px;
+        margin-bottom: 16px;
+    }
+    
+    /* Apply dodgerblue color to the switch */
+    .switch-container {
+        margin-bottom: 20px;
+    }
+    
+    /* Apply whitesmoke color to the switch label */
+    .switch-label {
+        color: whitesmoke;
+    }
+    
+    .create-account-link {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    
+    .create-account-link a {
+        color: dodgerblue;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    .create-account-link a:hover {
+        color: #004080;
+    }
+    

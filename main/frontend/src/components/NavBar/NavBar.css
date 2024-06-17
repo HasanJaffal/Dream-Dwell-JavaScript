@@ -1,0 +1,39 @@
+/* NavBar.css */
+
+.logo-image {
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+.navbar {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Style for Buttons */
+.button-group button {
+    background-color: dodgerblue;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 16px bold;
+    align-items: center;
+    padding: 2rem;
+    width: 8rem;
+}
+
+.button-group button:hover {
+    background-color: whitesmoke;
+    color: dodgerblue;
+    border-bottom: 0.1px inset dodgerblue;
+    
+}

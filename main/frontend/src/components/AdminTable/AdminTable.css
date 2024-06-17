@@ -1,0 +1,66 @@
+
+    .custom-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: auto;
+}
+
+    .custom-table th {
+        background-color: dodgerblue;
+    }
+    
+    .custom-table th,
+    .custom-table td {
+        border: 1px solid dodgerblue;
+        padding: 6px;
+        text-align: center;
+        max-width: 180px;
+    }
+
+    .custom-table td {
+        overflow: hidden;
+    }
+    
+    .even-row {
+        background-color: whitesmoke;
+    }
+    
+    .odd-row {
+        background-color: white;
+    }
+    
+    .dlt button {
+        background-color: red;
+        color: white;
+        padding: 10%;
+        cursor: pointer;
+        border-radius: 48px;
+        -webkit-border-radius: 48px;
+        -moz-border-radius: 48px;
+        -ms-border-radius: 48px;
+        -o-border-radius: 48px;
+    }
+
+    .submit {
+        background-color: limegreen;
+        color: white;
+        padding: 10%;
+        cursor: pointer;
+        border-radius: 48px;
+        -webkit-border-radius: 48px;
+        -moz-border-radius: 48px;
+        -ms-border-radius: 48px;
+        -o-border-radius: 48px;
+    }
+
+    .add {
+        background-color: limegreen;
+        padding: 10px;
+        width: 25%;
+        margin-top: 2rem;
+        border-radius: 48px;
+        -webkit-border-radius: 48px;
+        -moz-border-radius: 48px;
+        -ms-border-radius: 48px;
+        -o-border-radius: 48px;
+}

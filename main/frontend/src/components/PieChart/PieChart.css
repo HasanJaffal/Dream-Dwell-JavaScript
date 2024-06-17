@@ -1,0 +1,12 @@
+    /* PieChart.css */
+
+    .pie-chart-container {
+        width: 400px; /* Set a width for the container, adjust as needed */
+        margin: auto; /* Center the container horizontally */
+    }
+    
+    .pie-chart {
+        display: block;
+        margin: 10px auto; /* Adjust margin as needed */
+    }
+    

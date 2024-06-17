@@ -1,0 +1,19 @@
+.btn {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: black;
+    border: none;
+    border-radius: 48px;
+    cursor: pointer;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+}
+
+.btn:hover {
+    color: whitesmoke;
+}
